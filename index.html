@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Climate change</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header class="header-nav">
+      <nav class="navbar">
+        <div class="logo">BTEC</div>
+      
+        <ul class="navlink show">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="./learn.html">Learn</a></li>
+          <li><a href="./get-involved.html">Get involved</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <p class="intro-txt">Together, we can make a difference.</p>
+      <p class="txt">Climate Change Is Now.</p>
+
+      <div class="btn_cont">
+        <button class="btn" ><a href="./about.html" class="links">About</a></button>
+        <button class="btn"><a href="./learn.html" class="links">Learn</a></button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="intro_cont">
+        <div class="hero-txt">
+          <p class="hero-t">
+            Climate change poses a global challenge requiring collaborative
+            solutions. By embracing renewable energy sources like solar and
+            wind, reducing carbon emissions through sustainable practices, and
+            promoting reforestation efforts, we can mitigate its impact.
+          </p>
+        </div>
+
+        <img
+          src="./factory-producing-co2-pollution (1).jpg"
+          alt=""
+          class="hero_img"
+        />
+      </div>
+      <div class="intro_cont cont_2">
+        <img
+          src="./factory-producing-co2-pollution (2).jpg"
+          alt=""
+          class="hero_img second-img"
+        />
+        <div class="hero-txt card-2">
+          <p class="hero-t">
+            The effects of climate change are already being felt worldwide. Sea
+            levels are rising, glaciers are melting, and extreme weather
+            events—such as hurricanes, heatwaves, droughts, and floods—are
+            becoming more frequent and severe. Ecosystems are under threat, and
+            many species are at risk of extinction due to changing habitats and
+            temperatures.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="other">
+      <p class="other-txt">Facing Climate Change Together</p>
+      <div class="climate-cont">
+        <img src="./3d.png " alt="" class="img-3" />
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section about1">
+          <h3 class="about-h">About Us</h3>
+          <p>
+            We are dedicated to raising awareness and driving action to combat
+            climate change through education, advocacy, and sustainable
+            solutions.
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/solutions">Solutions</a></li>
+            <li><a href="/get-involved">Get Involved</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section newsletter">
+          <h3>Stay Updated</h3>
+          <form action="/subscribe" method="post">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 GreenGhana Alliance. All rights reserved.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        
+      </div>
+    </footer>
+  </body>
+  <script>
+  const toggleBtn = document.querySelector(".menu-toggle");
+  const navLinks = document.getElementById("navLinks");
+
+  toggleBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+</html>
